@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
+<head>
+	<!-- SCRIPT Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+	  ga('create', 'UA-42906120-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<!-- FIN SCRIPT Google Analytics -->
+ 
+	<!-- INITIALISATION DES VARIABLES PHP-->
+	<?php
+		//informations de base utilisées à plusieurs endroits (mise en forme, info google, info facebook)
+		$titre = "Le recrutement d’EjC, gage de qualité";
+		$sstitre = "";
+		$description = "A la rentrée scolaire, l’équipe d’EjC 2017 est rentrée dans sa période de Recrutement-Formation-Passation (RFP). Le but étant de constituer l’équipe du mandat 2018. Nous voulons que cette nouvelle équipe soit efficace et professionnelle dès son entrée en mandat début février. ";
+		$urlimageaccueil = " URL IMAGE DE L'ACCUEIL DU BLOG";
+		$num_arc = "17_018"; //AA_NNN
+		$date_publ= mktime(0,0,0,11,17,2017); // heure minute seconde mois jour année
+ 
+ // En tête
+$menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
+
+		//type de l'article: marquer 'video' ou 'images' 
+		$type = "images";
+ 
+		// Informations concernant les image(s) (si diaporama)
+		$arrayURL = array(1 => "src/2017/art17_018/je.jpg",2=> "src/2017/art17_018/dev co.jpg");
+		$arrayLabel = array(1 => "Présentation d'une Junior - Entreprise par le secrétaire général",2=> "Une formation du pôle Développement Commercial");
+ 
+		// Informations concernant la vidéo youtube (si vidéo)
+		$youtubeURL = " URL youtube";
+ 
+		//Auteur de l'article
+		$booleanAuteur = true ; //true si écrit par un pôle, false si écrit par une personne
+		$nom_auteur = "le pôle communication"; //"Prénom Nom" ou "le pôle XXX"
+		$titreAuteur = ""; //non utilisé si article écrit par un pôle. Exemple: "vice-présidente"
+		$imgAuteur = "images/pole/com.png"; //URL de la photo de l'auteur
+		$mail_ejc = "communication@ejc.fr";
+ 
+		// Corps de l'article
+		// Il est recommandé de travailler au brouillon depuis un vieux doctype sous format html puis de
+		// Recopier le code html présent entre les balises <div class="post-content" ... > </div>
+		// Attention toutes les guillemets "" doivent être précédées d'un antislash \
+		$corps="<p style=\"text-indent: 40px;\">A la rentrée scolaire 2017, l’équipe d’EjC a débuté sa période de Recrutement-Formation-Passation (RFP), le but étant de constituer l’équipe du mandat 2018. Nous voulons que cette nouvelle équipe soit efficace et professionnelle dès son entrée en mandat début février.</p>
+ 
+ 
+<p style=\"text-indent: 40px;\"><li style=\"color: #1E90FF;\">Recrutement</p></li> </p>
+ 
+<p style=\"text-indent: 40px;\">Afin de faire connaître la Junior-Entreprise aux nouveaux élèves de l’Ensai, nous avons pris part à différents évènements durant la quinzaine d’intégration de l’école au cours desquels nous avons eu l’occasion d’échanger sur notre expérience JE. Pour la présentation des associations de l’Ensai auprès des nouveaux élèves, nous avons préparé une vidéo décrivant notre Junior-Entreprise pour nous faire connaître.
+</p>Le 7 septembre, nous avons organisé une journée Ensai junior Consultant pour sensibiliser les nouveaux élèves au concept de Junior-Entreprise. Nous avons commencé la journée avec un petit déjeuner à l’attention de tous les élèves de l’école, puis notre partenaire BNP Paribas est venu faire une permanence pour permettre aux élèves d’ouvrir plus facilement des comptes bancaires. Enfin, nous avons fait une présentation générale des Junior-Entreprises et du rôle des administrateurs au sein des JE, suivie d’un apéritif. 
+</p>Le 15 septembre, nous avons organisé un apéritif à l’occasion du week-end d’intégration, en collaboration avec l’association Forum Ensai de notre école. 
+</p>Le 19 septembre, nous avons fait une nouvelle présentation portant plus spécifiquement sur l’organisation interne de notre association avec notamment une présentation de chaque pôle. A cette occasion nous avons pu nous rendre compte de l’impact de notre campagne de recrutement avec un tiers de la promotion de 1ère année intéressée pour intégrer Ensai junior Consultant. 
+</p>
+ 
+<li style=\"color: #1E90FF;\">Formation</p></li>
+<p style=\"text-indent: 40px;\">La première semaine d’octobre marquait le début des 7 semaines de formations. Chaque semaine, chaque pôle de notre JE dispose d’un créneau d’une heure afin de partager ses connaissances et les pratiques nécessaires au bon fonctionnement de son pôle. L’enseignement est autant théorique que pratique avec de nombreuses mises en situation. Cette année des formations de chef de projet ont été ajoutées. Le chef de projet est l’intermédiaire entre le client et le consultant lors d’une étude. Nous pensons que cette nouvelle formation donnera envie à la nouvelle équipe de jouer ce rôle plus tôt au cours du mandat. 
+</p>
+<p style=\"text-indent: 40px;\">Des formations sur le cadre légal d’une Junior seront également dispensées par le Secrétaire général.
+Ensuite, pour départager les candidats, des examens écrits seront mis en place par chacun des pôles. Un examen portant sur le cadre légal sera également soumis à tous les postulants.
+Enfin, les candidats passeront un entretien pour prouver leur motivation.
+Suite aux entretiens, le mandat actuel se réunira pour constituer la nouvelle équipe qui prendra poste dès janvier. </p>
+ 
+<li style=\"color: #1E90FF;\">Passation</p></li>
+<p style=\"text-indent: 40px;\">En janvier a lieu la période de double mandat. Pendant un mois, la nouvelle équipe se familiarise avec la gestion à plein temps d’Ensai junior Consultant avec l’aide de l’ancienne équipe. Pour les aider, le mandat 2017 rédigera pour chaque pôle un book de passation décrivant les tâches du quotidien mais aussi les évènements importants de l’année.
+ De plus, à Ensai junior Consultant, les Alumni sont toujours présents pour aider le mandat en poste à tout moment. 
+ Ainsi, par notre processus de RFP complet, nous assurons aux clients un travail sans perte de qualité et fait avec engagement tout au long de l’année même lors de l’entrée en poste du nouveau mandat.
+</p>
+Tout comme l'Étudiant depuis 2012, ainsi que de nombreuses entreprises, start-up et même des particuliers, n'hésitez pas à nous confier vos études statistiques pour rythmer la vie de ce prochain mandat !";
+ 
+ 
+	?>
+ 
+	<!-- META DATA -->
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta charset="UTF-8">
+	<title>Blog d'EjC - <?php echo $titre ?></title>
+	<!-- Description du site-->
+	<meta name="description" content="<?php echo $description ?>"/>
+	<!-- Mots clés pour la recherche-->
+	<meta name="keywords" content="Ensai, junior, entreprise, junior-entreprise, JER, étude, big data, statistique, statistiques, stats, analyse, information, informatique, mathémathiques, maths"/>
+	<meta name="author" content="<?php echo $auteur ?>"/>
+        <meta name="theme-color" content="#1e90ff">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
+	<!-- PARTAGE RESEAUX SOCIAUX -->
+	<meta property="og:title" content="Blog d'EjC - <?php echo $titre ?>"/>
+	<meta property="og:description" content="<?php echo $description ?>"/>
+	<meta property="og:image" content="<?php echo $urlimageaccueil ?>"/>
+	<!-- GOOGLE WEB FONTS INCLUDE -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<!-- JARVIS THEME STYLESHEETS -->  
+	<link rel="stylesheet" href="css/skeleton.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">    
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/social.css" type="text/css">             
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">	
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/><!-- PrettyPhoto -->	
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->    
+	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
+	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
+	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
+	<link id="primary_color_scheme" href="css/colors/dodgerBlue.css" rel="stylesheet" type="text/css"/>      
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->    
+</head>
+ 
+<body class="multipage">
+	<!-- START NAVIGATION -->
+	<nav class="light sticky-nav">
+		<!-- START CONTAINER -->	
+		<div class="container clearfix">			
+			<div class="four columns">			
+				<!-- START LOGO -->	
+				<div class="logo large" style="width:130px">
+					<a href="http://www.ejc.fr/#home"><img src="images/logo_top2.png" title="logo" alt="Logo"/></a>
+				</div>
+				<!-- END LOGO -->		
+			</div><!-- END FOUR COLUMNS -->                      
+			<div class="twelve columns">            		
+				<!-- START NAVIGATION MENU ITEMS -->
+				<ul class="main-menu large nav" id="nav">
+				<?php
+				echo $menu_source
+  				?>
+</ul>
+				<!-- END NAVIGATION MENU ITEMS -->				
+			</div><!-- END TWELVE COLUMNS -->	
+		</div><!-- END CONTAINER -->	
+	</nav>
+	<!-- END NAVIGATION -->
+ 
+ 
+	<!-- DEBUT DE LA PAGE -->    
+	<div id="blog-single" class="page-wrap">	
+		<div class="page multipage">
+			<div class="container">
+ 
+				<!-- TITRE ET SOUS-TITRE DE L'ARTICLE -->		
+				<div class="twelve columns">            
+					<div class="title">
+						<h3 style="color: #1E90FF;"> <?php echo $titre ?></h3>
+						<h4 style="color: #1E90FF;"> <?php echo $sstitre ?></h4>
+					</div>
+ 
+ 
+				<div class="post">
+ 
+					<!--CONTENU MULTIMEDIA-->						
+ 
+					<?php if ($type == "video"){
+ 
+						echo "<iframe width=\"560\" height=\"315\" src=\"".$youtubeURL."\" frameborder=\"0\" allowfullscreen></iframe>";
+					}elseif($type == "images"){
+ 
+						echo "<div class=\"post-media\">                   
+								<div class=\"flexslider\">
+									<ul class=\"slides\">";
+										for ($i = 1; $i <= count($arrayURL); $i++) {
+											echo "<li>
+													<img src=\"".$arrayURL[$i]."\" alt=\"portfolio slider\" />";
+													/// grâce au php, on affiche la légende que sil y en a une 
+													if ($arrayLabel[$i] != ""){echo "<p class=\"flex-caption\">".$arrayLabel[$i]."</p>";}	
+											echo "</li>";
+										}
+						echo "			
+								</ul>
+						  </div>                     
+						</div>";
+ 
+					}else{} 
+ 
+					?>
+ 
+ 
+ 
+					<?php echo"<p align=\"right\" style=\"margin-bottom: 60px\">Mis en ligne le ".date("d/m/y",$date_publ)."</p>" ?>	
+ 
+ 
+ 
+					<!-- TEXTE EN DESSOUS DU CONTENU MULTIMEDIA-->								
+						<div class="post-content" style="font-size:125%;line-height: 180%;"><?php echo $corps ?></div>	
+				</div>
+ 
+					<!-- SIGNATURE DE L'ARTICLE-->
+					<div id="blog-author" class="clearfix">
+						<h3 class="heading"><span>L'Auteur :</span></h3>
+						<img src="<?php echo $imgAuteur ?>" alt="author">
+							<p>Cet article a été rédigé par <?php if(booleanAuteur){echo $nom_auteur;}else{echo $nom_auteur.", ".$titreAuteur." chez Ensai Junior Consultant." ;} ?>.</p>
+							<p>Vous pouvez contacter <?php echo $nom_auteur ?> via cette adresse : <?php echo $mail_ejc ?></p>
+							<p>  </p>
+					</div>
+					<!-- FIN SIGNATURE DE L'ARTICLE-->
+				</div> 
+ 
+				<!-- PARTAGE -->
+				<div class="four columns">
+					<div class="sidebar">
+						<div class="widget">
+							<div class="widget-title">Partager l'article</div>
+								<div class="social-icon social-facebook"><a href="<?php echo "http://www.facebook.com/sharer.php?u=www.blog..fr/art".$num_arc.".php" ?>" target="_blank" data-original-title="Facebook">Facebook</a></div>
+								<div class="social-icon social-twitter"><a href="<?php echo "https://twitter.com/intent/tweet?text=www.blog.ejc.fr/art".$num_arc.".php" ?>" target="_blank" data-original-title="Twitter">Twitter</a></div>
+								<div class="social-icon social-linkedin"><a href="<?php echo "https://www.linkedin.com/sharing/share-offsite?mini=true&url=http://www.blog.ejc.fr/art".$num_arc."&title=Blog de EjC - ".$titre."&summary=".$description."&source=ejc.fr" ?>" target=\"_blank\" data-original-title=\"LinkedIn\">LinkedIn</a></div>
+						</div>
+					</div>
+				</div>
+				<!-- FIN PARTAGE -->
+ 
+			</div>
+ 
+ 
+			<div class="clear"></div>
+ 
+ 
+			  <!-- START COPYRIGHT SECTION -->   	
+				<div class="copyright clearfix">
+					<div class="container clearfix">
+						<div class="sixteen columns"></div>
+						<center><img src="images/logo_top.png" title="logo" alt="logo"/>
+					</div>  
+					<div class="social-icons">
+						<div class="social-icon social-email"><a href="mailto:contact@ejc.fr" target="_blank" data-original-title="Email">Email</a></div>
+						<div class="social-icon social-facebook"><a href="https://www.facebook.com/Ensai-junior-Consultant-122804694508292/?fref=ts" target="_blank" data-original-title="Facebook">Facebook</a></div>
+						<div class="social-icon social-linkedin"><a href="https://www.linkedin.com/company/ensai-junior-consultant" target="_blank" data-original-title="LinkedIn">LinkedIn</a></div>
+						<div class="social-icon social-twitter"><a href="https://twitter.com/EjC_35" target="_blank" data-original-title="Flickr">Flickr</a></div>
+					</div>
+					<p>&copy; <?php echo date('Y'); ?> Tous droits réservés. E<em>j</em>C</br>
+					Ensai <em>junior</em> Consultant</br>
+					Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
+					35172 BRUZ cedex</p>
+				</div> 
+				<!-- FIN SECTION COPYRIGHT-->
+ 
+			  </div>
+			</div> <!-- FIN DE LA PAGE -->
+ 
+ 
+			<div id="back-to-top"><a href="#">Back to Top</a></div>  
+ 
+ 
+ 
+			<!-- JARVIS THEME SCRIPTS -->
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+			<!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->         
+			<script type="text/javascript" src="js/jquery.form.js"></script>
+			<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+			<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
+			<script type="text/javascript" src="js/jquery.fitvids.js"></script>  
+			<script type="text/javascript" src="js/jquery.appear.js"></script>  
+			<script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
+			<script type="text/javascript" src="js/jquery.fittext.js"></script>   
+			<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+			<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+			<script type="text/javascript" src="js/jquery.sticky.js"></script>
+			<script type="text/javascript" src="js/selectnav.min.js"></script>    
+			<script type="text/javascript" src="js/SmoothScroll.js"></script>   
+			<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>   
+			<script type="text/javascript" src="js/shortcodes.js"></script>    
+			<script type="text/javascript" src="js/isotope.js"></script>     
+			<script type="text/javascript" src="js/scripts.js"></script>            
+		</body>
+	</html>
+La coloration syntaxique est réalisé par GeSHi
+Aide | Forums| Licence

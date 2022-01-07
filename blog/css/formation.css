@@ -1,0 +1,31 @@
+.perso1 figure {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+.perso1 img, .perso1 figcaption {
+    transition: all .25s ease;
+}
+.perso1 img {
+    display: block;
+}
+.perso1 figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    background: #000;
+    background: rgba(0, 0, 0, .75);
+    color: #fff;
+    opacity: 0;
+}
+.perso 1 figure:hover .perso1 img {
+    transform: scale(1.1);
+}
+.perso1 figure:hover .perso1 figcaption {
+    opacity: 1;
+}
+}

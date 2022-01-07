@@ -1,0 +1,7 @@
+ErrorDocument 401 http://www.ejc.fr/erreur_401.html
+ErrorDocument 403 http://www.ejc.fr/erreur_403.html
+ErrorDocument 404 http://www.ejc.fr/erreur_404.html
+ErrorDocument 500 http://www.ejc.fr/erreur_500.html
+
+Options All -Indexes
+
