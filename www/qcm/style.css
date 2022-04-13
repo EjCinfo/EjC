@@ -21,10 +21,10 @@ body h1 {
   font-size: 3rem;
 }
 body h1 span, body h1 i {
-  color: #ffa502;
+  color: dodgerBlue;
 }
 body h3 {
-  color: #ffa502;
+  color: dodgerBlue;
   font-size: 1.5rem;
 }
 body .container .choices {
@@ -47,7 +47,7 @@ body .container .choices button {
   font-weight: 600;
 }
 body .container .choices button:hover {
-  background: #ffa502;
+  background: dodgerBlue;
   transition: 0.5s;
 }
 body .container .choices button:active {
@@ -59,7 +59,7 @@ body .container .choices button p {
 }
 body #progress {
   font-size: 1.3rem;
-  color: #ffa502;
+  color: dodgerBlue;
 }
 
 /*# sourceMappingURL=style.css.map */

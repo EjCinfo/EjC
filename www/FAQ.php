@@ -29,14 +29,14 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
 	<title>FAQ de Ensai Junior Consultant, Junior-Entreprise spécialisée dans le domaine de la statistique et de l'analyse de l'information</title>
-    <!-- Description du site (description lors d'une recherche google)-->
+        <!-- Description du site (description lors d'une recherche google)-->
 	<meta name="description" content="FAQ de Ensai Junior Consultant, Junior-Entreprise spécialisée dans le domaine de la statistique et de l'analyse de l'information""/>
 	<!-- Mots clés pour la recherche-->
-    <meta name="keywords" content="Ensai, junior, entreprise, junior-entreprise, JER, étude, big data, statistique, statistiques, stats, analyse, information, informatique, mathémathiques, maths,FAQ,questions,"/>
-    <meta name="author" content=""/>
-<meta name="theme-color" content="#1e90ff">
+        <meta name="keywords" content="Ensai, junior, entreprise, junior-entreprise, JER, étude, big data, statistique, statistiques, stats, analyse, information, informatique, mathémathiques, maths,FAQ,questions,"/>
+        <meta name="author" content=""/>
+        <meta name="theme-color" content="#1e90ff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
 	<!-- PARTAGE RESEAUX SOCIAUX -->
 	<meta property="og:image" content="http://www.ejc.fr/images/logo_top.png" />
 	<!-- GOOGLE WEB FONTS INCLUDE -->
@@ -52,7 +52,7 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
 	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
 	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
  	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
-    <link id="primary_color_scheme" href="css/colors/dodgerBlue.css" rel="stylesheet" type="text/css"/>      
+        <link id="primary_color_scheme" href="css/colors/dodgerBlue.css" rel="stylesheet" type="text/css"/>      
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->    
@@ -139,7 +139,7 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
    </div><!-- END OF ROW -->
 			
 			
-			<div class="container">
+	<div class="container">
           <div class="row">      
   
 			
@@ -150,113 +150,97 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
               </div>
               
               <div class="accordion-inner">
-                  Tous les étudiants de l’ENSAI (ingénieurs et fonctionnaires) peuvent potentiellement rejoindre EjC, dans un rôle d’administrateur ou bien de consultant.
-				  </div>
+                  Tous les étudiants de l’ENSAI (ingénieurs et fonctionnaires) peuvent potentiellement rejoindre EjC, dans un rôle d’administrateur ou bien d'intervenant.
+	      </div>
               
               <div class="accordion-title active">
-                 <h3><span></span><a href="#">Qu’est-ce qu’un consultant ?</a></h3>
+                 <h3><span></span><a href="#">Qu’est-ce qu’un intervenant ?</a></h3>
               </div>
               <div class="accordion-inner">
-                  <p>
-				  Un consultant (ou intervenant) est un élève qui est rémunéré pour réaliser une étude statistique pour une entreprise (grands groupes, PME, particuliers…) afin de mettre en pratique les connaissances acquises à l’ENSAI. 
-				  </p>
-				  <p>
-				  NB : les élèves fonctionnaires peuvent être consultants pour EjC, mais ne seront pas rémunérés.
-				  </p>
-				  </div>
-              
+                  <p>Un intervenant est un élève qui est rétribué pour réaliser une étude statistique pour une entreprise (grands groupes, PME, particuliers…) afin de mettre en pratique les connaissances acquises à l’ENSAI. 
+                  <br />
+                  NB : les élèves fonctionnaires peuvent être intervenants pour EjC, mais ne seront pas rétribués.
+	          </p>
+	      </div>
               
               <div class="accordion-title">
                  <h3><span></span><a href="#">Qu’est-ce qu’un administrateur ?</a></h3>
               </div>
               <div class="accordion-inner">
-Un administrateur contribue au bon fonctionnement de la Junior-Entreprise. Au sein de son pôle, il développe l’activité de celle-ci et assure sa pérennité ! C’est aussi un représentant de la Junior lors des congrès ou autres évènements.
-
+                  Un administrateur contribue au bon fonctionnement de la Junior-Entreprise. Au sein de son pôle, il développe l’activité de celle-ci et assure sa pérennité ! C’est aussi un représentant de la Junior lors des congrès ou autres évènements.
               </div>
             
-			 <div class="accordion-title">
-                 <h3><span></span><a href="#">Comment devenir consultant / administrateur ?</a></h3>
+	      <div class="accordion-title">
+                 <h3><span></span><a href="#">Comment devenir intervenant / administrateur ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>Tout les étudiants de l’ENSAI (ingénieurs et fonctionnaires) peuvent <span>devenir administrateur</span> d’EjC en intégrant l’un des pôles suivants : trésorerie, communication, développement commercial, secrétaire général, contrôle interne, informatique, présidence (en deuxième année de mandat uniquement). Pour ce faire, il faut prendre part aux formations organisées lors de la période du RFP (Recrutement - Formation - Passation) en début d’année scolaire. Si vous participez à toutes les formations et que vous montrez de l’intérêt pour intégrer Ensai junior Consultant, des entretiens de motivation permettront ensuite de décider de votre recrutement. 
-			  </p>
-			 
-			  <p>À l’inverse des administrateurs, on peut <span>devenir consultant</span> à tout moment de sa scolarité à l’Ensai. Si vous êtes intéressés, n’hésitez pas à passer au local le midi ou le jeudi après-midi (il y a souvent des administrateurs qui y traînent…) ou nous contacter par mail.
-	</p>
-			</div>
+	         <p>Tout les étudiants de l’ENSAI (ingénieurs et fonctionnaires) peuvent <span>devenir administrateur</span> d’EjC en intégrant l’un des pôles suivants : trésorerie, communication, développement commercial, secrétaire général, contrôle interne, informatique, présidence (en deuxième année de mandat uniquement). Pour ce faire, il faut prendre part aux formations organisées lors de la période du RFP (Recrutement - Formation - Passation) en début d’année scolaire. Si vous participez à toutes les formations et que vous montrez de l’intérêt pour intégrer ENSAI junior Consultant, des entretiens de motivation permettront ensuite de décider de votre recrutement. 
+                 </p>
+		 <p>À l’inverse des administrateurs, on peut <span>devenir intervenant</span> à tout moment de sa scolarité à l’ENSAI. Si vous êtes intéressés, n’hésitez pas à passer au local le midi ou le jeudi après-midi (il y a souvent des administrateurs qui y traînent…) ou nous contacter par mail.
+	         </p>
+	      </div>
 			
-			<div class="accordion-title">
-                 <h3><span></span><a href="#">Devenir consultant est-ce payant ?</a></h3>
+	      <div class="accordion-title">
+                 <h3><span></span><a href="#">Devenir intervenant est-ce payant ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Oui, l'adhésion est de 10€ et est valable durant les 3 ans de votre scolarité à l’ENSAI (ce n’est pas grand chose par rapport à ce que vous gagnerez…)
-			  </div>
+	         Oui, l'adhésion est de 10€ et est valable durant les 3 ans de votre scolarité à l’ENSAI (ce n’est pas grand chose par rapport à ce que vous gagnerez…)
+	      </div>
 			  
-			  <div class="accordion-title">
+              <div class="accordion-title">
                  <h3><span></span><a href="#">Pourquoi devenir administrateur ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Devenir administrateur c’est participer à un mouvement national : celui des Junior-Entreprises. Cela vous promet des rencontres avec des professionnels, des centaines d’étudiants d’écoles d’ingénieurs ou de commerce. Vous apprendrez également à travailler à plusieurs (EjC compte 19 administrateurs) mais aussi à partager de bons moments entre vous : congrès régionaux/nationaux, afterworks, team buildings… 
-En choisissant le pôle qui vous convient le mieux vous développerez des compétences externes (en trésorerie, prospection, communication, informatique…), ce qui ne peut être que valorisant dans votre vie personnelle et professionnelle. 
-</div>
+                 Devenir administrateur c’est participer à un mouvement national : celui des Junior-Entreprises. Cela vous promet des rencontres avec des professionnels, des centaines d’étudiants d’écoles d’ingénieurs ou de commerce. Vous apprendrez également à travailler à plusieurs (EjC compte 21 administrateurs) mais aussi à partager de bons moments entre vous : congrès régionaux/nationaux, afterworks, team buildings… 
+                 En choisissant le pôle qui vous convient le mieux vous développerez des compétences externes (en trésorerie, prospection, communication, informatique…), ce qui ne peut être que valorisant dans votre vie personnelle et professionnelle. 
+              </div>
 
-			<div class="accordion-title">
-                 <h3><span></span><a href="#">Quelle est la durée d’un mandat d’administrateur ? De consultant ?</a></h3>
+	      <div class="accordion-title">
+                 <h3><span></span><a href="#">Quelle est la durée d’un mandat d’administrateur ? D'intervenant ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>
-			  Un mandat d’administrateur dure un an ! Vous êtes formés dès le mois d’octobre de votre première année à l’Ensai, puis potentiellement, devenez officiellement administrateur au début du mois de février, jusqu’à la fin du mois de janvier prochain.
-
-				</p>
-				<p>
-			  Vous pouvez être consultant durant toute votre scolarité si vous le souhaitez. La durée d’une étude est quant à elle variable, mais s’étend généralement sur quelques semaines.
-
-				</p>
-				</div>
+                 <p>Un mandat d’administrateur dure un an ! Vous êtes formés dès le mois d’octobre de votre première année à l’Ensai, puis potentiellement, devenez officiellement administrateur au début du mois de février, jusqu’à la fin du mois de janvier prochain.
+                 </p>
+		 <p>Vous pouvez être intervenant durant toute votre scolarité si vous le souhaitez. La durée d’une étude est quant à elle variable, mais s’étend généralement sur quelques semaines.
+                 </p>
+	      </div>
 				
-				<div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Quel pôle choisir ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Pour le savoir il faut venir aux réunions de présentations de notre JE et posez vos questions aux différents admins. Ensuite vous pourrez vous orienter vers les formations qui semblent vous convenir (plusieurs formations sont possibles à la fois) et choisir le pôle qui vous plaît le plus ! 
-			  </div>
+                 Pour le savoir il faut venir aux réunions de présentations de notre JE et posez vos questions aux différents admins. Ensuite vous pourrez vous orienter vers les formations qui semblent vous convenir (plusieurs formations sont possibles à la fois) et choisir le pôle qui vous plaît le plus ! 
+	      </div>
 			  
-			  <div class="accordion-title">
+              <div class="accordion-title">
                  <h3><span></span><a href="#">Combien de temps consacrer à EjC ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>
-			  Pour un administrateur, il faut compter environ 5h par semaine en moyenne. Notez que ces heures de consécration à EjC incluent du travail propre à votre pôle mais aussi la participation à des conseils administration (un par semaine), des permanences (une par pôle par semaine) et autres événements conviviaux partagés avec l’équipe.
-De plus, sous certaines conditions l’école peut vous obtenir une dispense le jeudi après midi afin de vous laisser du temps à consacrer à votre Junior.
- </p>
-				<p>
-			 Pour un consultant, chaque étude ayant ses propres spécificités, le temps à y consacrer varie d’une étude à l’autre. Et bien sur, plus consultant consacre de temps et d’études à EjC, plus il sera rémunéré !
-	<p>
-			</div>
+                 <p>Pour un administrateur, il faut compter environ 5h par semaine en moyenne. Notez que ces heures de consécration à EjC incluent du travail propre à votre pôle mais aussi la participation à des conseils administration (un par semaine), des permanences (une par pôle par semaine) et autres événements conviviaux partagés avec l’équipe.
+                 De plus, sous certaines conditions l’école peut vous obtenir une dispense le jeudi après midi afin de vous laisser du temps à consacrer à votre Junior.
+                 </p>
+		 <p>Pour un intervenant, chaque étude ayant ses propres spécificités, le temps à y consacrer varie d’une étude à l’autre. Et bien sur, plus un intervenant consacre de temps et d’études à EjC, plus il sera rétribué !
+	         </p>
+	      </div>
 			
-			<div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Et le fun dans tout ça ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Tout au long de l’année vous allez participer à des congrès, des team building, des afterworks.. sans compter la bonne ambiance qui règne au sein de l’équipe qui fait que chaque permanence, chaque conseil d'administration devient un moment sympathique !
-			  </div>
+	         Tout au long de l’année vous allez participer à des congrès, des team building, des afterworks.. sans compter la bonne ambiance qui règne au sein de l’équipe qui fait que chaque permanence, chaque conseil d'administration devient un moment sympathique !
+	      </div>
 			  
-			  <div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Que sont les JER ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>
-			  JER = Junior-Entreprises Rennaises
-			  </p>
-			  <p>
-Il y en a 5 : Ouest INSA (INSA de Rennes), l’Epine (ESIR), Sciences Po Rennes Junior Conseil (SciencesPo Rennes), Bretagne Conseil (Rennes School of Business) et Ensai junior Consultant (ENSAI). Nous travaillons régulièrement avec ces Juniors et nous échangeons parfois lors d’afterworks sur Rennes !  
-			</p>
-			<p>
-			<a href="https://jer.bzh/">Le site des JER</a>
-			</p>
-			</div>
+	         <p>JER = Junior-Entreprises Rennaises</p>
+	         <p>Il y en a 5 : Ouest INSA (INSA de Rennes), l’Epine (ESIR), Sciences Po Rennes Junior Conseil (SciencesPo Rennes), Bretagne Conseil (Rennes School of Business) et ENSAI junior Consultant (ENSAI). Nous travaillons régulièrement avec ces Juniors et nous échangeons parfois lors d’afterworks sur Rennes !  
+		 </p>
+	         <p><a href="https://jer.bzh/">Le site des JER</a></p>
+	      </div>
 			  
-             </div><!-- END OF ACCORDION -->
+            </div><!-- END OF ACCORDION -->
            
 		   
 		   
@@ -274,9 +258,8 @@ Il y en a 5 : Ouest INSA (INSA de Rennes), l’Epine (ESIR), Sciences Po Rennes 
               <div class="accordion-title">
                  <h3><span></span><a href="#">Pourquoi faire appel à une Junior-Entreprise ?</a></h3>
               </div>
-              
               <div class="accordion-inner">
-				Faire appel à une Junior-Entreprise permet de s’assurer un service de qualité professionnelle au prix le plus bas. Nos études sont le plus souvent réalisées par des étudiants-ingénieurs en dernière année d’étude, formés aux dernières techniques d’analyse à même de résoudre vos problèmes. De plus, EjC est soutenue par les chercheurs du Centre de Recherche en Économie et en Statistique (CREST) de l’Ensai, qui appuient régulièrement les travaux de nos consultants. 
+		 Faire appel à une Junior-Entreprise permet de s’assurer un service de qualité professionnelle au prix le plus bas. Nos études sont le plus souvent réalisées par des étudiants-ingénieurs en dernière année d’étude, formés aux dernières techniques d’analyse à même de résoudre vos problèmes. De plus, EjC est soutenue par les chercheurs du Centre de Recherche en Économie et en Statistique (CREST) de l’ENSAI, qui appuient régulièrement les travaux de nos intervenants. 
               </div>
               
               <div class="accordion-title active">
@@ -284,153 +267,127 @@ Il y en a 5 : Ouest INSA (INSA de Rennes), l’Epine (ESIR), Sciences Po Rennes 
               </div>
               <div class="accordion-inner">
                  <p>Nos modèles prédictifs ont déjà fait leurs preuves auprès de grands groupes privés comme Keolis, Engie ou Orange. En termes d’analyse, EjC assiste notamment le magazine l’Étudiant dans l’élaboration de son prestigieux palmarès des écoles de commerce par la mise en place d’outils de scoring.
-				</p>
-				<p>
-				D’autre part, notre connaissance des problématiques du secteur public nous a permis de collaborer avec de nombreuses municipalités et hôpitaux dans la construction et l’exploitation de questionnaires. Des entreprises nationales telles que La Poste ou récemment la SNCF, ont également pu nous confier la gestion de leurs bases de données. 
-				</p>
-				<p>
+		 </p>
+		 <p>D’autre part, notre connaissance des problématiques du secteur public nous a permis de collaborer avec de nombreuses municipalités et hôpitaux dans la construction et l’exploitation de questionnaires. Des entreprises nationales telles que La Poste ou récemment la SNCF, ont également pu nous confier la gestion de leurs bases de données. 
+		 </p>
+		 <p>Enfin, nous sommes également très fiers de pouvoir régulièrement mettre à profit notre expérience pour de grands instituts de recherche tels que l’INRA ou l’Insee.
+		 </p>
+	      </div>
 				
-Enfin, nous sommes également très fiers de pouvoir régulièrement mettre à profit notre expérience pour de grands instituts de recherche tels que l’INRA ou l’Insee.
-				</p>
-				</div>
-				
-              
               <div class="accordion-title">
                  <h3><span></span><a href="#">Quelle expertise EjC peut-elle m’apporter ?</a></h3>
               </div>
               <div class="accordion-inner">
-                  <p>
-				  EjC vous offre une expérience de plus de 20 ans dans le domaine de la Data Science. 
-Notre triple expertise en Statistiques, Économie et Informatique nous permet de travailler très régulièrement sur des secteurs aussi variés que la finance, la santé ou le marketing. Que ce soit pour dynamiser vos performances, analyser votre clientèle, réaliser une enquête ou encore élaborer les outils de gestion de vos bases de données, EjC dispose de toutes les solutions disponibles pour répondre à vos attentes.
-				</p>
-				<p>
-				L’Ensai offre à nos consultants une connaissance théorique de très haut niveau, grâce à nos nombreux enseignants-chercheurs officiants au Centre de Recherche en Économie et en Statistique (CREST). Un bagage technique doublé d’un grand savoir-faire pratique, affuté dès la première année par de nombreux projets et stages en lien avec des problématiques directement rencontrées à l’Insee, et perfectionné lors d’une dernière année de spécialisation.
-				</p>
-				
-				</br></br>
-		<img src="images/expertise.png" alt="Expertise" class="Expertise">
-		</br>
-				</div>
+                  <p>EjC vous offre une expérience de plus de 20 ans dans le domaine de la Data Science. 
+                  Notre triple expertise en Statistiques, Économie et Informatique nous permet de travailler très régulièrement sur des secteurs aussi variés que la finance, la santé ou le marketing. Que ce soit pour dynamiser vos performances, analyser votre clientèle, réaliser une enquête ou encore élaborer les outils de gestion de vos bases de données, EjC dispose de toutes les solutions disponibles pour répondre à vos attentes.
+		  </p>
+		  <p>L’ENSAI offre à nos intervenants une connaissance théorique de très haut niveau, grâce à nos nombreux enseignants-chercheurs officiants au Centre de Recherche en Économie et en Statistique (CREST). Un bagage technique doublé d’un grand savoir-faire pratique, affuté dès la première année par de nombreux projets et stages en lien avec des problématiques directement rencontrées à l’Insee, et perfectionné lors d’une dernière année de spécialisation.
+		  </p>
+		  </br></br>
+		  <img src="images/expertise.png" alt="Expertise" class="Expertise">
+		  </br>
+	      </div>
             
 			
-			<div class="accordion-title">
-                 <h3><span></span><a href="#">Comment sont recrutés vos consultants ?</a></h3>
+              <div class="accordion-title">
+                 <h3><span></span><a href="#">Comment sont recrutés vos intervenants ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Nos consultants et administrateurs sont des étudiants-ingénieurs de l’École Nationale de la Statistique et de l’Analyse de l’Information (Ensai), une grande école d’ingénieur reconnue notamment pour former les statisticiens de l’Insee. Le cursus de l’Ensai nous offre un excellent bagage théorique porté par les enseignants-chercheurs du CREST, ainsi qu’une mise en pratique rigoureuse par le biais de nombreux stages et projets. Généralement, nous sélectionnons nos intervenants lors de leur dernière année d’étude, et selon la spécialisation qui répondra au mieux à votre demande. Chaque recrutement fait alors l’objet d’un entretien de motivation. Enfin, nous effectuons un contrôle régulier de leurs travaux afin d’assurer le bon déroulement de l’étude.
-			  </div>
+                 Nos intervenants et administrateurs sont des étudiants-ingénieurs de l’École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI), une grande école d’ingénieur reconnue notamment pour former les statisticiens de l’Insee. Le cursus de l’ENSAI nous offre un excellent bagage théorique porté par les enseignants-chercheurs du CREST, ainsi qu’une mise en pratique rigoureuse par le biais de nombreux stages et projets. Généralement, nous sélectionnons nos intervenants lors de leur dernière année d’étude, et selon la spécialisation qui répondra au mieux à votre demande. Chaque recrutement fait alors l’objet d’un entretien de motivation. Enfin, nous effectuons un contrôle régulier de leurs travaux afin d’assurer le bon déroulement de l’étude.
+	      </div>
 			  
-			  <div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Qui assure le suivi de mon étude ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Chaque étude est suivie de près par un binôme « chef de projet / assistant relecteur » qui vous accompagne dans toutes les démarches administratives et supervise le travail de nos consultants de A à Z. À ce duo s’ajoute notre pôle contrôle interne qui vous assure la conformité des documents ainsi que la qualité du rendu final.
-Au total, c’est une équipe de 19 administrateurs qui peuvent être mobilisés pour répondre à vos attentes.
-			</div>
+	         Chaque étude est suivie de près par un binôme « chef de projet / assistant relecteur » qui vous accompagne dans toutes les démarches administratives et supervise le travail de nos intervenants de A à Z. À ce duo s’ajoute notre pôle contrôle interne qui vous assure la conformité des documents ainsi que la qualité du rendu final.
+                 Au total, c’est une équipe de 21 administrateurs qui peuvent être mobilisés pour répondre à vos attentes.
+	      </div>
 			
-			  <div class="accordion-title">
+              <div class="accordion-title">
                  <h3><span></span><a href="#">Combien coûte une étude ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Nous ne proposons pas de forfait tarifaire. Nos études et budgets sont faits sur mesure. C’est le meilleur moyen de nous adapter à votre budget. 
-A titre indicatif, un JEH coûte environ 350€ HT et le nombre de JEH dépend de l’étude, de la taille de la base de données, de l’analyse que vous désirez… chaque étude étant différente ! 
-</div>
+	         Nous ne proposons pas de forfait tarifaire. Nos études et budgets sont faits sur mesure. C’est le meilleur moyen de nous adapter à votre budget. 
+                 A titre indicatif, un JEH coûte environ 350€ HT et le nombre de JEH dépend de l’étude, de la taille de la base de données, de l’analyse que vous désirez… chaque étude étant différente ! 
+              </div>
 
-			<div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Comment se déroule une étude à EjC?</a></h3>
               </div>
               <div class="accordion-inner">
-				<p>
-				Lors de votre premier contact avec EjC, vous serez amené à définir votre projet à l’aide d’un membre de notre équipe commerciale. Votre demande prise en charge, nous associons à votre étude un binôme « chef de projet / assistant relecteur » qui sera votre interlocuteur privilégié pour toute la durée de l’étude. Ensemble, vous allez pouvoir discuter des questions méthodologiques avant d’aboutir à un accord.
-				</p>
-				<p>
-				Le contrat signé, notre chef de projet se chargera de recruter les consultants les plus adéquats à votre demande parmi plus de 300 intervenants potentiels. Votre étude sera ensuite réalisée en interne à EjC et nous vous tiendrons régulièrement informé des dernières évolutions et résultats. Le travail de nos consultants est suivi de A à Z pour qu’il traduise au mieux vos attentes.
-				</p>
-				<p>
-				L’étude finie, nous vous présenterons les résultats selon les modalités désirées et nous vous délivrerons alors le rapport final. Vous disposerez ensuite de 2 semaines à 3 mois de garantie pour nous faire parvenir d’éventuels retours et correctifs à apporter. Enfin, nous vous faisons parvenir un questionnaire de satisfaction pour continuer à nous améliorer !
-				</p>
-				</br></br>
-		<img src="images/en_pratique.png" alt="En pratique" class="en_pratique">
-		</br>
-				</div>
+		 <p>Lors de votre premier contact avec EjC, vous serez amené à définir votre projet à l’aide d’un membre de notre équipe commerciale. Votre demande prise en charge, nous associons à votre étude un binôme « chef de projet / assistant relecteur » qui sera votre interlocuteur privilégié pour toute la durée de l’étude. Ensemble, vous allez pouvoir discuter des questions méthodologiques avant d’aboutir à un accord.
+		 </p>
+		 <p>Le contrat signé, notre chef de projet se chargera de recruter les intervenants les plus adéquats à votre demande parmi plus de 300 intervenants potentiels. Votre étude sera ensuite réalisée en interne à EjC et nous vous tiendrons régulièrement informé des dernières évolutions et résultats. Le travail de nos intervenants est suivi de A à Z pour qu’il traduise au mieux vos attentes.
+		 </p>
+		 <p>L’étude finie, nous vous présenterons les résultats selon les modalités désirées et nous vous délivrerons alors le rapport final. Vous disposerez ensuite de 2 semaines à 3 mois de garantie pour nous faire parvenir d’éventuels retours et correctifs à apporter. Enfin, nous vous faisons parvenir un questionnaire de satisfaction pour continuer à nous améliorer !
+		 </p>
+		 </br>
+		 <img src="images/en_pratique.png" alt="En pratique" class="en_pratique">
+		 </br>
+	       </div>
 				
-				<div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Qu’est-ce qui assure la qualité de mon étude ? </a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>
-			  Pour vérifier la pertinence de leurs solutions, les Junior-Entreprise sont auditées chaque année par la Confédération Nationale des Junior-Entreprises (CNJE). La qualité des études et le bon fonctionnement d’EjC sont félicités depuis plusieurs années par la CNJE qui congratule notre Junior-Entreprise de la plus haute mention « Satisfaisant ». 
-			  </p>
-			  <p>
-			  Ce gage de qualité, nous le devons essentiellement à la force de notre suivi d’étude et surtout aux compétences de nos consultants, dont les travaux sont appuyés par les enseignants-chercheurs du CREST de l’Ensai. Notre structure a également pu faire ses preuves lors de contrats signés avec de grands groupes, tels que la SNCF, Engie ou l’Étudiant.
-			  </p>
-			  <p>
-			  Enfin, toute Junior-Entreprise est tenue de fournir à ses clients une obligation de moyen. À ce titre, nous faisons tout ce qui est en notre pouvoir pour satisfaire votre demande.
-			  </p>
-			  </div>
+	         <p>Pour vérifier la pertinence de leurs solutions, les Junior-Entreprise sont auditées chaque année par la Confédération Nationale des Junior-Entreprises (CNJE). La qualité des études et le bon fonctionnement d’EjC sont félicités depuis plusieurs années par la CNJE qui congratule notre Junior-Entreprise de la plus haute mention « Satisfaisant ». 
+                 </p>
+		 <p>Ce gage de qualité, nous le devons essentiellement à la force de notre suivi d’étude et surtout aux compétences de nos intervenants, dont les travaux sont appuyés par les enseignants-chercheurs du CREST de l’ENSAI. Notre structure a également pu faire ses preuves lors de contrats signés avec de grands groupes, tels que la SNCF, Engie ou l’Étudiant.
+	         </p>
+		 <p>Enfin, toute Junior-Entreprise est tenue de fournir à ses clients une obligation de moyen. À ce titre, nous faisons tout ce qui est en notre pouvoir pour satisfaire votre demande.
+		 </p>
+	      </div>
 
-			  <div class="accordion-title">
+              <div class="accordion-title">
                  <h3><span></span><a href="#">Et si je ne suis pas satisfait par les résultats?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Vous disposez d’une période de 2 semaines à 3 mois, selon le type de rendu pour manifester toute imperfection contrevenant à vos attentes décrites dans le cahier des charges. Nous ajoutons d’ailleurs généralement une phase de vérification client à nos études, afin de permettre un maximum de vos retours avant le rendu final.
-Légalement, les Junior-Entreprises répondent à une obligation de moyen et nous mettons donc tous les moyens qui sont à notre disposition pour satisfaire vos exigences. Néanmoins, à la différence d’une obligation de résultat, nous n’avons pas à attester sans défaillance de résultats décrits dans le cahier des charges.
-</div>
+	         Vous disposez d’une période de 2 semaines à 3 mois, selon le type de rendu pour manifester toute imperfection contrevenant à vos attentes décrites dans le cahier des charges. Nous ajoutons d’ailleurs généralement une phase de vérification client à nos études, afin de permettre un maximum de vos retours avant le rendu final.
+                 Légalement, les Junior-Entreprises répondent à une obligation de moyen et nous mettons donc tous les moyens qui sont à notre disposition pour satisfaire vos exigences. Néanmoins, à la différence d’une obligation de résultat, nous n’avons pas à attester sans défaillance de résultats décrits dans le cahier des charges.
+              </div>
 			  
-			  <div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Comment facture une Junior-Entreprise ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  Une étude en Junior-Entreprise est facturée en termes de Jour Étude Homme (JEH). Un JEH représente environ 8 à 9 heures de travail et nous les facturons en moyenne 350 € HT. Le nombre de JEH est programmé « sur mesure » selon vos attentes. En moyenne, nous facturons 1 JEH par semaine et par consultant.
-			  </div>
+		 Une étude en Junior-Entreprise est facturée en termes de Jour Étude Homme (JEH). Un JEH représente environ 8 à 9 heures de travail et nous les facturons en moyenne 350 € HT. Le nombre de JEH est programmé « sur mesure » selon vos attentes. En moyenne, nous facturons 1 JEH par semaine et par intervenant.
+	      </div>
 			  
-			  <div class="accordion-title">
-                 <h3><span></span><a href="#">Un consultant d’EjC peut-il directement travailler dans mes locaux ?</a></h3>
+	      <div class="accordion-title">
+                 <h3><span></span><a href="#">Un intervenant d’EjC peut-il directement travailler dans mes locaux ?</a></h3>
               </div>
               <div class="accordion-inner">
-			Non, ou tout du moins pas à proprement parler. Nos consultants ne peuvent pas travailler directement chez vous. Néanmoins, il est possible d’organiser des rendez-vous dans vos locaux pour diverses occasions, comme par exemple une présentation des résultats en Power Point. Seulement, chaque rencontre doit pouvoir s’effectuer en présence du chef de projet.
-			  </div>
+		 Non, ou tout du moins pas à proprement parler. Nos intervenants ne peuvent pas travailler directement chez vous. Néanmoins, il est possible d’organiser des rendez-vous dans vos locaux pour diverses occasions, comme par exemple une présentation des résultats en Power Point. Seulement, chaque rencontre doit pouvoir s’effectuer en présence du chef de projet.
+	      </div>
 			  
-			  <div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Quels logiciels utilisez-vous le plus souvent ?</a></h3>
               </div>
               <div class="accordion-inner">
-			  <p>
-			  Nous travaillons le plus souvent avec les logiciels de traitement statistique Rstudio et SAS version 9.1 qui sont les logiciels les plus répandus et les plus efficaces actuellement. Nos consultants sont aussi amenés à programmer sous langage Python, Java et plus rarement en C/C++.
-			  </p>
-			  <p>
-			  En ce qui concerne le format des rapports, nous éditons le plus souvent nos documents via le langage LateX (grâce à la plateforme Overleaf), soit le plus standard dans la rédaction d’articles universitaires en format PDF. Nous pouvons également rédiger nos résultats sous Word, vous les transmettre via Excel dans la mesure du possible ou encore vous les présenter via Power Point. 
-			  </p>
-			  </div>
+		 <p>Nous travaillons le plus souvent avec les logiciels de traitement statistique Rstudio et SAS version 9.1 qui sont les logiciels les plus répandus et les plus efficaces actuellement. Nos intervenants sont aussi amenés à programmer sous langage Python, Java et plus rarement en C/C++.
+		 </p>
+	         <p>En ce qui concerne le format des rapports, nous éditons le plus souvent nos documents via le langage LateX (grâce à la plateforme Overleaf), soit le plus standard dans la rédaction d’articles universitaires en format PDF. Nous pouvons également rédiger nos résultats sous Word, vous les transmettre via Excel dans la mesure du possible ou encore vous les présenter via Power Point. 
+		 </p>
+	      </div>
 		
-	  <div class="accordion-title">
+	      <div class="accordion-title">
                  <h3><span></span><a href="#">Quid de la confidentialité ?</a></h3>
               </div>
               <div class="accordion-inner">
 		EjC est habilitée à signer une charte de confidentialité pour garantir la protection de vos données. 
-</div>
+              </div>
              </div><!-- END OF ACCORDION -->  
 			<!-- END PORTFOLIO ITEM -->			 
 	   </div>
 	   <!-- END PORTFOLIO WRAPPER -->
 	</div>
-
-	
-	
-	
-
-        
-		   
-			<!-- END PORTFOLIO ITEM -->			 
-	   </div>
-	   <!-- END PORTFOLIO WRAPPER -->
+	   
+	<!-- END PORTFOLIO ITEM -->			 
 	</div>
-
-
-
-
-
-		
+	   <!-- END PORTFOLIO WRAPPER -->
+      </div>
+	
    <!-- START COPYRIGHT SECTION -->   	
     <div class="copyright">
     <div class="container clearfix">
@@ -466,10 +423,11 @@ Légalement, les Junior-Entreprises répondent à une obligation de moyen et nou
                 
 			 </div>
 		</div>  
-			<p>&copy; 2020 Tous droits réservés. E<em>j</em>C</br>
+			<p>&copy; 2022 Tous droits réservés. E<em>j</em>C</br>
 			Ensai <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
-			35172 BRUZ cedex</p>
+			35172 BRUZ cedex</br>
+			<a href="mentions_légales.html">Mentions légales</a></p>
          </div> <!-- END SIXTEEN COLUMNS -->
 	  </div><!-- END CONTAINER -->
      </div>
@@ -480,21 +438,21 @@ Légalement, les Junior-Entreprises répondent à une obligation de moyen et nou
     </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
 	
 	
-	<!-- JARVIS THEME SCRIPTS -->
+    <!-- JARVIS THEME SCRIPTS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
     <!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->         
     <script type="text/javascript" src="js/jquery.form.js"></script>
-	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+    <script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
     <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
     <script type="text/javascript" src="js/jquery.appear.js"></script>  
     <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
     <script type="text/javascript" src="js/jquery.fittext.js"></script>   
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="js/selectnav.min.js"></script>    
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/selectnav.min.js"></script>    
     <script type="text/javascript" src="js/SmoothScroll.js"></script>   
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>    
     <script type="text/javascript" src="js/isotope.js"></script>    
@@ -505,4 +463,4 @@ Légalement, les Junior-Entreprises répondent à une obligation de moyen et nou
   	
 </body>
 
-</html>				
+</html>							

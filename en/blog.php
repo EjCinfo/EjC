@@ -28,9 +28,9 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 	<!-- META DATA -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
-	<title>Ensai Junior Consultant Blog</title>
+	<title>ENSAI junior Consultant Blog</title>
     <!-- Description du site (description lors d'une recherche google)-->
-	<meta name="description" content="Ensai Junior Consultant blog,a Junior Enterprise specialise in statistics and data analysis""/>
+	<meta name="description" content="ENSAI junior Consultant blog, a Junior Enterprise specialise in statistics and data analysis""/>
 	   <!-- Mots clés pour la recherche-->
     <meta name="keywords" content="Ensai, junior, enterprise, junior enterprise, JER, study, big data, statistics,, stats, analyse, information, science computer, mathémathics, maths, anglais, english, eng, engineer"/>
     <meta name="author" content=""/>
@@ -105,7 +105,7 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 			</div> 
 			<div class="one-third column"  style="width: 25%;">
 				</p>
-				<h4>Capucine Sans </h4> 
+				<h4>Théophile Desolle</h4> 
 				<h6>EjC president</h6>
 			</div>                
 		</div>                            		
@@ -316,10 +316,11 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
                 </div>
 			 </div>
 		</div>  
-			<p>&copy; 2020 All right reserved. E<em>j</em>C</br>
+			<p>&copy; 2022 All rights reserved. E<em>j</em>C</br>
 			Ensai <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
-			35172 BRUZ cedex</p>
+			35172 BRUZ cedex</br>
+                        <a href="legal_notice.html">Legal notice</a></p>
          </div> <!-- END SIXTEEN COLUMNS -->
 	  </div><!-- END CONTAINER -->
      </div>

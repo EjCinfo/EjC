@@ -779,8 +779,9 @@ p.quote {
 	line-height: 0.8;
 }
 .subtitle {
-	font-family: 'Open Sans', "Times New Roman", Times, serif;
-	font-size: 20px;
+	/* font-family: 'Open Sans', "Times New Roman", Times, serif; */ 
+        font-family: 'Alwyn', sans-serif;
+	font-size: 15px;
 	line-height: 1.2;
 	padding: 0;
 	margin-bottom: 40px;
@@ -806,9 +807,12 @@ p.quote {
 	background-size: 80%;
 }
 .en_pratique {
-	/* max-width: 650px; présente en début de mandant 2017 */
+	/* max-width: 650px; présente en début de mandat 2017 */
+        text-align:center;
         width: 650px;
 	height: auto;
+        margin-left: auto;
+        margin-right: auto;
 }
 /*======== HOME SECTION ========*/	
 #home {
@@ -1937,7 +1941,50 @@ a#button-newsletter {
     height: 100% !important;
     position: absolute;
 }
-
-
-
-
+/*--------------------------------------------------------
+/* MANDAT 2022 - FORMULAIRE ESPACE INTERVENANT
+--------------------------------------------------------*/
+.accordion-inner {
+   font-family: 'Alwyn', sans-serif;
+} 
+form, select, option {
+   font-family: 'Alwyn', sans-serif;
+}
+.container-formulaire {
+   display: inline-block;
+}
+.block-form {
+   text-align: center;
+   display: inline-flex;
+   justify-content: center
+}
+input[type=text], input[type=password] {
+    width: 300px;
+    font-family: 'Alwyn', sans-serif;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(30, 144, 255);
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(30, 144, 255);
+    background-color:white;
+}
+input[type=submit] {
+    font-family: 'Alwyn', sans-serif;
+    font-size: 1em;
+    padding: 12px 20px;
+    background-color: rgb(30, 144, 255);
+    color: white;
+    cursor: pointer;
+    border-color: rgb(30, 144, 255);
+    width: 300px;
+}
+input[type=submit]:hover {
+    background-color: rgb(11, 125, 242);
+}
+input[type=submit]:focus {
+    outline: none;
+}					

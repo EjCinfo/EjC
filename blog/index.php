@@ -51,17 +51,21 @@ foreach($json_data as $v){
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
 	<title>Blog de ENSAI Junior Consultant, Junior-Entreprise spécialisée dans le domaine de la statistique et de l'analyse de l'information</title>
-    <!-- Description du site (description lors d'une recherche google)-->
+        
+        <!-- Description du site (description lors d'une recherche google)-->
 	<meta name="description" content="Blog de ENSAI Junior Consultant, Junior-Entreprise spécialisée dans le domaine de la statistique et de l'analyse de l'information""/>
-	<!-- Mots clés pour la recherche-->
-    <meta name="keywords" content="ENSAI, junior, entreprise, junior-entreprise, JER, étude, big data, statistique, statistiques, stats, analyse, information, informatique, mathémathiques, maths"/>
-    <meta name="author" content=""/>
-<meta name="theme-color" content="#1e90ff">
+	
+        <!-- Mots clés pour la recherche-->
+        <meta name="keywords" content="ENSAI, junior, entreprise, junior-entreprise, JER, étude, big data, statistique, statistiques, stats, analyse, information, informatique, mathémathiques, maths"/>
+        <meta name="author" content=""/>
+        <meta name="theme-color" content="#1e90ff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
-	<!-- PARTAGE RESEAUX SOCIAUX -->
+        <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
+	
+        <!-- PARTAGE RESEAUX SOCIAUX -->
 	<meta property="og:image" content="http://www.ejc.fr/images/logo_top.png" />
-	<!-- GOOGLE WEB FONTS INCLUDE -->
+	
+        <!-- GOOGLE WEB FONTS INCLUDE -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<!-- JARVIS THEME STYLESHEETS -->  
 	<link rel="stylesheet" href="css/skeleton.css" type="text/css">
@@ -74,7 +78,8 @@ foreach($json_data as $v){
 	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
 	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
  	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
-    <link id="primary_color_scheme" href="css/colors/dodgerBlue.css" rel="stylesheet" type="text/css"/>      
+        <link id="primary_color_scheme" href="css/colors/dodgerBlue.css" rel="stylesheet" type="text/css"/>   
+   
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->    
@@ -95,22 +100,19 @@ foreach($json_data as $v){
 				<!-- END LOGO -->			
 			</div><!-- END FOUR COLUMNS -->                    
 			<div class="twelve columns"> 
-           		
-								<!-- START NAVIGATION MENU ITEMS -->
+				<!-- START NAVIGATION MENU ITEMS -->
 				<ul class="main-menu large nav" id="nav">
 				<?php
 				echo $menu_source
   				?>
-</ul>
-				<!-- END NAVIGATION MENU ITEMS -->
-
-				
+                                </ul>
+				<!-- END NAVIGATION MENU ITEMS -->			
 			</div><!-- END TWELVE COLUMNS -->	
 		</div><!-- END CONTAINER -->	
     </nav>
     <!-- END NAVIGATION -->
 
-	<!-- DEBUT DE LA CITATION -->
+        <!-- DEBUT DE LA CITATION -->
 	<div class="container" style="background-image: url(images/zigouigoui_gris2.png); background-position: right">   
 		<div class="row" style="margin-top: 40px; margin-bottom: 0px;">          
 			<div class="one-third column" style="width: 5%;">
@@ -124,13 +126,13 @@ foreach($json_data as $v){
 					<div class="testimonial-slide">
 						<p class="client-testimonial" style="background-color: dodgerBlue; border-radius: 15px; box-shadow: 0px 0px 8px 2px dodgerBlue;">
 						Retrouvez tous les articles sur l'actualité de notre Junior-Entreprise et les différentes problématiques qui nous font réagir. Bonne lecture à tous !
-						</div>
+					</div>
 				</div>
 			</div> 
 			<div class="one-third column"  style="width: 25%;">
 				</p>
-				<h4>Capucine Sans</h4> 
-				<h6>Présidente d'EjC</h6>
+				<h4>Théophile Desolle</h4> 
+				<h6>Président d'EjC</h6>
 			</div>                
 		</div>                            		
 	</div>
@@ -173,79 +175,13 @@ for($i = $nbArticle-1; $i>$nbArticle - 4 ; $i=$i-1){
 }
 
 ?>
-
-			  
-
-			  
-
-					 	
-	
-					
-		  
+	  
 			  
 					</div>
 				</div> <!-- FIN DE LA LIGNE --> 
 			</div>
 		</div>
 	</div>	
-
-	
-	
-	<div class="page">
-	
-	<!-- START PARALLAX SECTION -->
-	<div id="parallax3" class="parallax" style="background-color:#9D9D9D;">
-        <div class="bg3 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
-        <div class="overlay"></div><!-- END PATTERN OVERLAY -->
-        <div class="container clearfix">
-                <div class="parallax-content">
-                <p class="testimonial-icon"><i class="icon-thumbs-up"></i></p><h3 class="title"><span>NOUS AVONS AIMÉ</span></h3>
-                <div class="testimonial-slider">
-                      <div class="flexslider">
-                      <ul class="slides styled-list">
-                      
-
-						
-						<li class="testimonial-slide">
-						<img src="src/share/letudiant.png" style="margin-left:auto;margin-right:auto;width:100px;">
-						<p class="client-testimonial" style="color:white">Le saviez-vous ? Le classement des écoles de commerce proposé par l'Etudiant est le fruit du travail d'un consultant d'ENSAI junior Consultant. Découvrez le classement 2017 et la méthodologie employée. Merci pour leur confiance et leur fidélité !<br> 
-						<h6> <a href="http://www.letudiant.fr/palmares/liste-profils/palmares-des-grandes-ecoles-de-commerce/palmares-des-grandes-ecoles-de-commerce-notre-methodologie/home.html" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de l'Étudiant</a></p> </h6>
-						</li>
-
-                                                <li class="testimonial-slide">
-						<img src="src/share/dataiku.png" style="margin-left:auto;margin-right:auto;width:100px;">
-						<p class="client-testimonial" style="color:white">Grâce aux enseignements dispensés à l'ENSAI, nos consultants manipulent de nombreux outils statistiques pour effectuer leurs études. Voici un excellent article de <emp>data iku</emp> qui décrit certains de ces concepts.<br> 
-						<h6> <a href="https://blog.dataiku.com/an-introduction-to-key-data-science-concepts" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de data iku</a></p> </h6>
-						</li>
-						
-						
-						<li class="testimonial-slide">
-						<img src="src/share/letudiant.png" style="margin-left:auto;margin-right:auto;width:100px;">
-						<p class="client-testimonial" style="color:white">"Faire partie de la Junior-Entreprise de votre école ou de votre université : un atout pour votre insertion professionnelle. Samuel, 22 ans, étudiant en école de commerce, nous fait partager son expérience d'apprenti manager."<br> 
-						<h6> <a href="http://www.letudiant.fr/jobsstages/junior-entreprise-devenez-entrepreneur-avant-l-heure.html" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de l'Étudiant</a></p> </h6>
-						</li>
-
-						<li class="testimonial-slide">
-						<img src="http://ejc.fr/images/clients2/cnje.png" style="margin-left:auto;margin-right:auto;width:100px;">
-						<p class="client-testimonial" style="color:white">"Tu es étudiant ? Tu as entendu parler de la Junior-Entreprise de ton école ou université mais tu hésites encore à postuler ? Voici 5 raisons qui vont te convaincre de franchir le pas."<br> 
-						<h6> <a href="http://junior-entreprises.com/blog/etudiant-rejoindre-junior-entreprise/" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de la CNJE</a></p> </h6>
-						</li>					
-
-
-                      </ul>
-                      </div>
-              </div>
-
-      </div><!-- END PARALLAX CONTENT -->
-    </div><!-- END CONTAINER -->
-  </div>
-  <!-- END PARALLAX SECTION -->
-	
-	</div>
-	
-	
-	
-	
 	
 	<!-- START CONTACT SECTION -->
 	<div id="contact" class="fullwidth lineargrey" style="padding-top:10px">
@@ -254,7 +190,7 @@ for($i = $nbArticle-1; $i>$nbArticle - 4 ; $i=$i-1){
 			<h3>RETROUVEZ NOS DERNIERS ARTICLES</h3>
 		</div>
 		
-    <!-- START PORTFOLIO SECTION -->
+        <!-- START PORTFOLIO SECTION -->
 		<div id="portfolio" class="page" style="padding: 0 0 0 0; background-image: url(images/zigouigoui_gris2.png); background-position: right;  background-repeat: repeat-x;">		
 			   <!-- START AJAX SECTION -->  
 				<div id="ajax-section">     
@@ -402,6 +338,61 @@ for($i = $nbArticle-1; $i>$nbArticle - 15 ; $i=$i-1){
 	   <!-- END PORTFOLIO WRAPPER -->
 	</div>
 	<!-- END PORTFOLIO SECTION -->
+
+
+        <div class="page">
+	
+	<!-- START PARALLAX SECTION -->
+	<div id="parallax3" class="parallax" style="background-color:#9D9D9D;">
+        <div class="bg3 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
+        <div class="overlay"></div><!-- END PATTERN OVERLAY -->
+        <div class="container clearfix">
+                <div class="parallax-content">
+                <p class="testimonial-icon"><i class="icon-thumbs-up"></i></p><h3 class="title"><span>NOUS AVONS AIMÉ</span></h3>
+                <div class="testimonial-slider">
+                      <div class="flexslider">
+                      <ul class="slides styled-list">
+                      
+
+						
+						<li class="testimonial-slide">
+						<img src="src/share/letudiant.png" style="margin-left:auto;margin-right:auto;width:100px;">
+						<p class="client-testimonial" style="color:white">Le saviez-vous ? Le classement des écoles de commerce proposé par l'Etudiant est le fruit du travail d'un intervenant d'ENSAI junior Consultant. Découvrez le classement 2017 et la méthodologie employée. Merci pour leur confiance et leur fidélité !<br> 
+						<h6> <a href="http://www.letudiant.fr/palmares/liste-profils/palmares-des-grandes-ecoles-de-commerce/palmares-des-grandes-ecoles-de-commerce-notre-methodologie/home.html" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de l'Étudiant</a></p> </h6>
+						</li>
+
+                                                <li class="testimonial-slide">
+						<img src="src/share/dataiku.png" style="margin-left:auto;margin-right:auto;width:100px;">
+						<p class="client-testimonial" style="color:white">Grâce aux enseignements dispensés à l'ENSAI, nos intervenants manipulent de nombreux outils statistiques pour effectuer leurs études. Voici un excellent article de <emp>data iku</emp> qui décrit certains de ces concepts.<br> 
+						<h6> <a href="https://blog.dataiku.com/an-introduction-to-key-data-science-concepts" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de data iku</a></p> </h6>
+						</li>
+						
+						
+						<li class="testimonial-slide">
+						<img src="src/share/letudiant.png" style="margin-left:auto;margin-right:auto;width:100px;">
+						<p class="client-testimonial" style="color:white">"Faire partie de la Junior-Entreprise de votre école ou de votre université : un atout pour votre insertion professionnelle. Samuel, 22 ans, étudiant en école de commerce, nous fait partager son expérience d'apprenti manager."<br> 
+						<h6> <a href="http://www.letudiant.fr/jobsstages/junior-entreprise-devenez-entrepreneur-avant-l-heure.html" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de l'Étudiant</a></p> </h6>
+						</li>
+
+						<li class="testimonial-slide">
+						<img src="http://ejc.fr/images/clients2/cnje.png" style="margin-left:auto;margin-right:auto;width:100px;">
+						<p class="client-testimonial" style="color:white">"Tu es étudiant ? Tu as entendu parler de la Junior-Entreprise de ton école ou université mais tu hésites encore à postuler ? Voici 5 raisons qui vont te convaincre de franchir le pas."<br> 
+						<h6> <a href="http://junior-entreprises.com/blog/etudiant-rejoindre-junior-entreprise/" style="margin-left:5px;color:white;font-weight:bold;on">Lire l'article de la CNJE</a></p> </h6>
+						</li>					
+
+
+                      </ul>
+                      </div>
+              </div>
+
+      </div><!-- END PARALLAX CONTENT -->
+    </div><!-- END CONTAINER -->
+  </div>
+  <!-- END PARALLAX SECTION -->
+	
+	</div>
+	
+
 		
     <!-- START COPYRIGHT SECTION -->   	
     <div class="copyright">
@@ -434,10 +425,11 @@ for($i = $nbArticle-1; $i>$nbArticle - 15 ; $i=$i-1){
                 </div>
 			 </div>
 		</div>  
-			<p>&copy; 2020 Tous droits réservés. E<em>j</em>C</br>
+			<p>&copy; 2022 Tous droits réservés. E<em>j</em>C</br>
 			ENSAI <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
-			35172 BRUZ cedex</p>
+			35172 BRUZ cedex</br>
+			<a href="http://www.ejc.fr/mentions_l%C3%A9gales.html">Mentions légales</a></p>
          </div> <!-- END SIXTEEN COLUMNS -->
 	  </div><!-- END CONTAINER -->
      </div>
@@ -473,4 +465,4 @@ for($i = $nbArticle-1; $i>$nbArticle - 15 ; $i=$i-1){
   	
 </body>
 
-</html>			
+</html>						

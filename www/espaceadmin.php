@@ -17,23 +17,21 @@
 </script>
  
 <?php
- 
 // En tête
 $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
- 
  
 ?>
 
 	<!-- META DATA -->
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
-	<title>Ensai Junior Consultant</title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta name="author" content=""/>
-    <meta name="theme-color" content="#1e90ff">
+	<title>ENSAI junior Consultant</title>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content=""/>
+        <meta name="theme-color" content="#1e90ff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-       <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="faviconne.ico" type="image/x-icon">
 
 	<!-- GOOGLE WEB FONTS INCLUDE -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
@@ -85,8 +83,6 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
      </div><!-- END HOME SECTION -->
 
 
-
-
     <!-- START NAVIGATION -->
     <nav class="light sticky-nav navigation">
      <!-- START CONTAINER -->	
@@ -123,8 +119,8 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
 				  <h1>Espace Admin</h1>
                                   <div class="subtitle subtitle1">
 					  </br>
-<p>Bienvenue dans l'espace administrateur d'Ensai <em>junior</em> Consultant. Cet espace est dédié aux membres de la <span class="highlight">Junior Entreprise</span></p>
-                      <p>Vous trouverez ici différents <span class="highlight">QCM</span> pour réviser le <em>cadre légales.</em></p>
+<p>Bienvenue dans l'espace administrateur d'ENSAI <em>junior</em> Consultant. Cet espace est dédié aux membres de la <span class="highlight">Junior Entreprise</span></p>
+                      <p>Vous trouverez ici différents <span class="highlight">QCM</span> pour réviser le <em>cadre légal.</em></p>
 					
                   </div><!-- END SUBTITLE -->
                   </div><!-- END TITLE -->  	                           
@@ -193,10 +189,11 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
 		  
 		   
 		   
-			<p>&copy; 2020 Tous droits réservés. E<em>j</em>C</br>
+			<p>&copy; 2022 Tous droits réservés. E<em>j</em>C</br>
 			Ensai <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
-			35172 BRUZ cedex</p>
+			35172 BRUZ cedex</br>
+			<a href="mentions_légales.html">Mentions légales</a></p>
          </div> <!-- END SIXTEEN COLUMNS -->
 	  </div><!-- END CONTAINER -->
      </div>
@@ -228,4 +225,4 @@ $menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
   	
 </body>
 
-</html>		
+</html>			

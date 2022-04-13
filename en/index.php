@@ -25,9 +25,9 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 	<!-- META DATA -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
-	<title>ENSAI Junior Consultant</title>
+	<title>ENSAI junior Consultant</title>
     <!-- Description du site (description lors d'une recherche google)-->
-	<meta name="description" content="ENSAI Junior Consultant website,a Junior Enterprise specialise in statistics and data analysis""/>
+	<meta name="description" content="ENSAI Junior Consultant website,a Junior Enterprise specialise in statistics and data analysis"/>
 	   <!-- Mots clés pour la recherche-->
     <meta name="keywords" content="ENSAI, junior, enterprise, junior enterprise, JER, study, big data, statistics,, stats, analyse, information, science computer, mathémathics, maths, anglais, english, eng, engineer"/>
     <meta name="author" content=""/>
@@ -80,7 +80,7 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 			  <h1>
 				
                     <span class="slabtext second-child">" Reveal the potential of your data"</span> 
-					<span class="slabtext tree-child">ENSAI Junior Consultant, ENSAI's Junior Enterprise </span> 					
+					<span class="slabtext tree-child">ENSAI junior Consultant, ENSAI's Junior Enterprise </span> 					
                 </h1>
               </div>
            </div><!-- END CONTAINER -->
@@ -220,9 +220,9 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
                       
                       <div class="panel" id="panel1">
 						<p class="text-panel">... ENSAI's Junior-Enterprise - National School for Statistics and Data Analysis</br></br>
-						EjC  works as a <span class="highlight">consultancy firm</span>. EJC links companies who need 
+						EjC  is an <span class="highlight">educational nonprofit organization for statistical consulting</span>. EjC links companies who need 
 						<span class="highlight">statistical studies</span>  and engineer students from ENSAI who achieve these.
-						Since <span class="highlight">1996</span>, EJC worked with well-known companies as well as SMEs,  
+						Since <span class="highlight">1996</span>, EjC worked with well-known companies as well as SMEs,  
 						public institutions, start ups and private individuals.</br></br>
 						We can exploit the expertise of  <span class="highlight">250 engineer students</span>  and we are supported by
 						<span class="highlight">ENSAI researcher </span> and research Laboratory in statistics which 
@@ -236,7 +236,7 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 								<a href="http://www.ensai.fr/" title="Logo ENSAI" class="link_image"><img src="images/logo_ensai.png" alt="Logo ENSAI"></a>
 						  </div>
 						  <div class="one_third last">
-								<p>Founded in 1994,<a href="http://www.ensai.fr/" title="Vers le site ENSAI">ENSAI</a> has been located on the Ker Lann Campus since 1996,
+								<p>Founded in 1994,<a href="http://www.ensai.fr/" title="Vers le site ENSAI"> ENSAI</a> has been located on the Ker Lann Campus since 1996,
 								in the countryside just outside Rennes. ENSAI is part of the network of prestigious higher education establishments in France known as  
 								Grandes écoles, or specialized graduate schools. ENSAI's education trains its students to become qualified, high-level managers in information 
 								processing and analysis. After graduating from the statistical engineering or <a href="http://www.insee.fr/fr/accueil/" title="Vers le site INSEE">INSEE</a> civil servant statistician program, our students have threefold 
@@ -278,7 +278,7 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
                
                <div class="four columns">
 				 <h6 class="milestone-details">Exist for</h6>
-                 <div class="milestone-counter" data-perc="24">
+                 <div class="milestone-counter" data-perc="25">
                    <span class="milestone-count highlight"></span>
                    <img src="images/years.png" alt="Signe ans">
                  </div>
@@ -300,13 +300,13 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
                </div><!-- END FOUR COLUMNS --> 
                
                <div class="four columns">
-                 <div class="milestone-counter" data-perc="18">
+                 <div class="milestone-counter" data-perc="21">
                    <span class="milestone-count highlight"></span>
                    <h6 class="milestone-details">administrators will work for you</h6>
                  </div>
                </div><!-- END FOUR COLUMNS -->
                   <div class="img-container">
-                    <img src="images/infographie_en.png" alt="Service Features">
+                    <img src="images/historique_en_2022.png" alt="Service Features">
                   </div>                                                                                    
            </div><!-- END ROW -->
 		</div><!-- END CONTAINER --> 
@@ -323,10 +323,10 @@ $menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 		<div class="container clearfix">
 			<div class="parallax-content">
 				<p class="quote" style="font-size: 150%"><i class="icon-quote-left"></i> 
-                                ENSAI Junior Consultant it's a solid Junior-Entreprise based on internal processes and established service guarantees that have allowed it to regularly be among the list of the 30 best JEs in France since 2015. 
+                                ENSAI junior Consultant it's a solid Junior-Entreprise based on internal processes and established service guarantees that have allowed it to regularly be among the list of the 30 best JEs in France since 2015. 
 Founded in the heart of one of the few Data Sciences schools in France, our young and professional team will take care of revealing your data by meeting your statistical, econometric or IT needs.
 Do not wait any longer to yield a profit from your data and entrust us with your projects!				<i class="icon-quote-right"></i></p>
-				<div class="quote-author">Capucine Sans, EjC president</div>
+				<div class="quote-author">Théophile Desolle, EjC president</div>
 			</div><!-- END PARALLAX CONTENT -->
 		</div><!-- END CONTAINER -->
 	</div>
@@ -527,11 +527,11 @@ Do not wait any longer to yield a profit from your data and entrust us with your
           </div><!-- END CONTAINER --> 
        
         <div class="fancy-header2">       
-           <h2 class="highlight">MANDATE 2021</h2>
+           <h2 class="highlight">MANDATE 2022</h2>
         </div>     
                     
           <div class="container">	
-            <center> <img src="images/equipe2021 anglais.jpg" alt="equipe2020">     
+            <center> <img src="images/equipe2022.jpg" alt="equipe2022">     
               
               
          </div><!-- END CONTAINER --> 
@@ -607,10 +607,11 @@ Do not wait any longer to yield a profit from your data and entrust us with your
 			 </div>
 		</div>  
 		   
-			<p>&copy; 2020 All rights reserved. E<em>j</em>C</br>
+			<p>&copy; 2022 All rights reserved. E<em>j</em>C</br>
 			ENSAI <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
-			35172 BRUZ cedex</p>
+			35172 BRUZ cedex</br>
+                        <a href="legal_notice.html">Legal notice</a></p>
          </div> <!-- END SIXTEEN COLUMNS -->
 	  </div><!-- END CONTAINER -->
      </div>

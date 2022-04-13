@@ -27,7 +27,7 @@
 		$date_publ= mktime(0,0,0,7,02,2020); // heure minute seconde mois jour année
  
  // En tête
-$menu_source = file_get_contents('http://www.ejc.fr/menu_en_tete.html');
+$menu_source = file_get_contents('http://www.en.ejc.fr/menu_en_tete_en.html');
 
 		//type de l'article: marquer 'video' ou 'images' 
 		$type = "";

@@ -433,7 +433,7 @@ for($i = $nbArticle-1; $i>$nbArticle - 15 ; $i=$i-1){
                 </div>
 			 </div>
 		</div>  
-			<p>&copy; 2020 Tous droits réservés. E<em>j</em>C</br>
+			<p>&copy; 2022 Tous droits réservés. E<em>j</em>C</br>
 			Ensai <em>junior</em> Consultant</br>
 			Campus de Ker-Lann, Rue Blaise Pascal - BP 37203</br> 
 			35172 BRUZ cedex</p>
